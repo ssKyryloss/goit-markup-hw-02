@@ -55,6 +55,7 @@ body {
 }
 .hero-img-header {
     color: var(--WHITE, #FFF);
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
