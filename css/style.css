@@ -149,11 +149,11 @@ line-height: 24px;
     line-height: 21px;
     font-family: 'Raleway', sans-serif;
     text-decoration:none;
-    
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 
-}
-.footer-logo-one{
-    color: #4D5AE5;
 }
 .footer-logo-two {
     color: #F4F4FD;
