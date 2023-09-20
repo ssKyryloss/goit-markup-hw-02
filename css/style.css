@@ -63,7 +63,6 @@ body {
 }
 .hero-img-button {
     font-family: "Roboto", sans-serif;
-    background: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
     font-size: 16px;
     font-weight: 500;
