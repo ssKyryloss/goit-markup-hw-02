@@ -6,9 +6,7 @@ body {
 .top-line-logo {
 
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 21px;
     font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
     text-decoration:none;
@@ -18,7 +16,6 @@ body {
     
 }
 .logo-two {
-   
     color: #2E2F42;
 }
 .top-line-li {
@@ -28,9 +25,8 @@ body {
 .top-line-nav {
     color: #2E2F42;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     text-decoration: none;
     letter-spacing: 0.02em;
 }
@@ -44,9 +40,8 @@ body {
 .top-line-contacts {
     color: #434455;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.6;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -56,27 +51,23 @@ body {
 }
 .hero-img {
     color:  #2e2f42;
+    background-color: #2e2f42;
 }
 .hero-img-header {
     color: var(--WHITE, #FFF);
-    text-align: center;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 60px;
     line-height: 1.07;
     letter-spacing: 0.02em;
 
 }
 .hero-img-button {
     font-family: "Roboto", sans-serif;
-    display: inline-flex;
     background: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -87,9 +78,8 @@ body {
 .section-one-header {
     color: var(--NAVY-BLUE, #2E2F42);
         font-size: 20px;
-        font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
 }
 .section-one-li {
@@ -98,18 +88,14 @@ body {
 .section-one-text {
     color: var(--SLATE, #434455);
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
 }
 .section-two-header-one {
     color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
-        line-height: 40px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -119,25 +105,22 @@ body {
 }
 .section-two-header {
     color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
         font-size: 20px;
-        font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
 }
 .section-two-text {
     color: var(--SLATE, #434455);
-        text-align: center;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
 }
 .section-two-img {
     width: 264px;
     height: 260px;
+    background-color: #FFFFFF;
 }
 .section-three {
     background-color: #F4F4FD
@@ -145,9 +128,7 @@ body {
 .section-one-header-two {
         color: var(--NAVY-BLUE, #2E2F42);
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
-        line-height: 40px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -156,17 +137,15 @@ body {
 .section-three-header {
     color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
-font-style: normal;
 font-weight: 500;
-line-height: 24px;
+line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .section-three-text {
     color: var(--SLATE, #434455);
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .footer {
@@ -175,16 +154,13 @@ letter-spacing: 0.02em;
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
 }
 .footer-logo {
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 21px;
     font-family: 'Raleway', sans-serif;
     text-decoration:none;
     line-height: 1.17;
