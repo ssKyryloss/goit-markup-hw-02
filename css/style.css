@@ -4,28 +4,25 @@ body {
     background-color: #ffffff;
 }
 .top-line-logo {
-    
-    text-decoration:none;
-    
-}
-.logo-one {
+
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 21px;
     font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
+    text-decoration:none;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform:uppercase ;
+    
 }
 .logo-two {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    text-decoration:none;
-    font-family: 'Raleway', sans-serif;
+   
     color: #2E2F42;
 }
-li {
+.top-line-li {
+
     list-style-type: none;
 }
 .top-line-nav {
@@ -35,14 +32,27 @@ li {
     font-weight: 500;
     line-height: 24px;
     text-decoration: none;
+    letter-spacing: 0.02em;
+}
+.top-line-nav:hover,
+.top-line-nav:focus {
+    color: #404bbf;
+}
+.top-line-address {
+    font-style: normal;
 }
 .top-line-contacts {
-    color: #2E2F42;
+    color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    letter-spacing: 0.02em;
     text-decoration: none;
+}
+.top-line-contacts:hover,
+.top-line-contacts:focus {
+    color:#404bbf;
 }
 .hero-img {
     color:  #2e2f42;
@@ -61,10 +71,6 @@ li {
 .hero-img-button {
     font-family: "Roboto", sans-serif;
     display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
     font-size: 16px;
@@ -85,6 +91,9 @@ li {
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
+}
+.section-one-li {
+    color: #ffffff;
 }
 .section-one-text {
     color: var(--SLATE, #434455);
