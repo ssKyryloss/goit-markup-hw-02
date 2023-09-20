@@ -1,21 +1,26 @@
-html,body {
+body {
     font-family: 'Roboto', sans-serif;
 }
-.top-line {
-    background-color: #ffffff;
-}
 .top-line-logo {
+    
+    text-decoration:none;
+    
+}
+.logo-one {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
     font-family: 'Raleway', sans-serif;
+    color: #4D5AE5;
+}
+.logo-two {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 21px;
     text-decoration:none;
-}
-.logo-one {
-    color: #4D5AE5;
-}
-.logo-two {
+    font-family: 'Raleway', sans-serif;
     color: #2E2F42;
 }
 li {
@@ -132,4 +137,25 @@ li {
 }
 .footer-logo-two {
     color: #F4F4FD;
+}
+.section-one-header-two {
+    color: var(--NAVY-BLUE, #2E2F42);
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+}
+.section-three-header {
+    color: var(--NAVY-BLUE, #2E2F42);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.section-three-text {
+    color: var(--SLATE, #434455);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
 }
