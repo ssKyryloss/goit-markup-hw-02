@@ -44,28 +44,39 @@ li {
     line-height: 24px;
     text-decoration: none;
 }
-.hero-img-text {
+.hero-img {
+    color:  #2e2f42;
+}
+.hero-img-header {
     color: var(--WHITE, #FFF);
     text-align: center;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 
 }
 .hero-img-button {
+    font-family: "Roboto", sans-serif;
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--WHITE, #FFF);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.hero-img-button:hover,
+.hero-img-button:focus {
+ background-color: #404BBF;
 }
 .section-one-header {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -73,6 +84,7 @@ li {
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
+        letter-spacing: 0.02em;
 }
 .section-one-text {
     color: var(--SLATE, #434455);
@@ -80,6 +92,7 @@ li {
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
+        letter-spacing: 0.02em;
 }
 .section-two-header-one {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -92,8 +105,8 @@ li {
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
-.section-two-li {
-    background-color: #FFFFFF;
+.section-two {
+    background-color: #F4F4FD;
 }
 .section-two-header {
     color: var(--NAVY-BLUE, #2E2F42);
